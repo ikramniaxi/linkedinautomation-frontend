@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { User } from "lucide-react";
 
 const Navbar = () => {
-  // Mocking auth state for the UI demo
+  
   const isAuth = false;
 
   return (
@@ -33,6 +33,11 @@ const Navbar = () => {
               `text-xs uppercase tracking-widest font-semibold transition-colors ${isActive ? 'text-white' : 'text-zinc-500 hover:text-white'}`
             }>
               Pricing
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => 
+              `text-xs uppercase tracking-widest font-semibold transition-colors ${isActive ? 'text-white' : 'text-zinc-500 hover:text-white'}`
+            }>
+              Contact Us
             </NavLink>
           </div>
         </div>

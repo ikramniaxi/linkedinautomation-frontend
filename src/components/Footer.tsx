@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="text-zinc-600">Connect.</span>
             </h2>
             <div className="flex flex-wrap gap-8">
-              <a href="mailto:hello@linkedinautomation.com" className="group flex items-center gap-2 text-xs uppercase tracking-[0.3em] font-bold hover:text-zinc-400 transition-colors">
+              <a href="mailto:developers@ocean.com" className="group flex items-center gap-2 text-xs uppercase tracking-[0.3em] font-bold hover:text-zinc-400 transition-colors">
                 <Mail size={16} />
                 Email Us
                 <ArrowUpRight size={14} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-white/5 gap-8">
           <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-zinc-700">
-            © 2024 LinkedInAutomation. All Rights Reserved.
+            © 2026 LinkedInAutomation. All Rights Reserved.
           </span>
           <div className="flex items-center gap-8">
              <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-zinc-700">

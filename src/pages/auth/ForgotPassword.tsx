@@ -22,7 +22,7 @@ const ForgotPassword = () => {
       </form>
 
       <p className="text-sm text-center mt-4">
-        <Link to="/signin" className="text-blue-600">
+        <Link to="/signin" className="text-gray-600">
           Back to Sign In
         </Link>
       </p>

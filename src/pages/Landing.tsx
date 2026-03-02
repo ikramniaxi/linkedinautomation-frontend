@@ -19,9 +19,6 @@ const Landing = () => {
             className="flex flex-col gap-8"
           >
             <div className="flex flex-col gap-2">
-              <span className="text-xs uppercase tracking-[0.3em] font-bold text-zinc-500">
-                2024 / Outreach Automation
-              </span>
               <h1 className="text-[12vw] lg:text-[8vw] font-display leading-[0.85] uppercase tracking-tighter">
                 Automate <br />
                 <span className="text-zinc-600">Your</span> <br />
@@ -69,18 +66,6 @@ const Landing = () => {
               referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-transparent to-transparent" />
-            
-            <div className="absolute bottom-20 right-20">
-              <motion.div
-                animate={{ x: [0, 10, 0], y: [0, -10, 0] }}
-                transition={{ repeat: Infinity, duration: 4 }}
-                className="w-48 h-48 border-r-4 border-b-4 border-white/20 relative"
-              >
-                <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-zinc-950 flex items-center justify-center">
-                   <ArrowUpRight size={48} className="text-white opacity-20" />
-                </div>
-              </motion.div>
-            </div>
           </motion.div>
         </section>
       </main>

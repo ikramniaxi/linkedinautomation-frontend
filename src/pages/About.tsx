@@ -42,7 +42,7 @@ const About = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 to-transparent" />
               <div className="absolute bottom-10 left-10">
-                <span className="text-4xl font-display uppercase tracking-tighter">EST. 2024</span>
+                <span className="text-4xl font-display uppercase tracking-tighter">EST. 2026</span>
               </div>
             </div>
           </motion.div>
