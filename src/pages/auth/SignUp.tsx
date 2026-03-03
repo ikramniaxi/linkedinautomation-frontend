@@ -21,9 +21,9 @@ const SignUp = () => {
       </p>
 
       <form onSubmit={handleSignup} className="space-y-4">
-        <input className="w-full px-4 py-2 bg-gray-100 rounded-lg outline-none focus:ring-2 focus:ring-blue-500" placeholder="Name" />
-        <input className="w-full px-4 py-2 bg-gray-100 rounded-lg outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email" />
-        <input className="w-full px-4 py-2 bg-gray-100 rounded-lg outline-none focus:ring-2 focus:ring-blue-500" placeholder="Password" type="password" />
+        <input className="w-full px-4 py-2 bg-gray-500 rounded-lg outline-none focus:ring-2 focus:ring-blue-500" placeholder="Name" />
+        <input className="w-full px-4 py-2 bg-gray-500 rounded-lg outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email" />
+        <input className="w-full px-4 py-2 bg-gray-500 rounded-lg outline-none focus:ring-2 focus:ring-blue-500" placeholder="Password" type="password" />
 
         <button className="w-full bg-gray-900 text-white py-2 rounded-lg">
           Sign Up
@@ -32,7 +32,7 @@ const SignUp = () => {
 
       <p className="text-sm text-center mt-4">
         Already have an account?{" "}
-        <Link to="/signin" className="text-blue-600 font-medium">
+        <Link to="/signin" className="text-gray-600 font-medium">
           Sign In
         </Link>
       </p>

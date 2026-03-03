@@ -39,7 +39,7 @@ const Pricing = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
             <div className="max-w-2xl">
-              <span className="text-xs uppercase tracking-[0.4em] font-bold text-zinc-500 mb-4 block">Pricing Plans / 2024</span>
+              <span className="text-xs uppercase tracking-[0.4em] font-bold text-zinc-500 mb-4 block">Pricing Plans / 2026</span>
               <h1 className="text-7xl md:text-9xl font-display uppercase leading-[0.85] tracking-tighter">
                 Simple <br />
                 <span className="text-zinc-600">Pricing.</span>

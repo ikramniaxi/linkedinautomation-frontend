@@ -36,7 +36,7 @@ const Contact = () => {
                     </div>
                     <div className="flex flex-col gap-1">
                       <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-zinc-600">Email</span>
-                      <span className="text-xs uppercase tracking-widest font-bold">hello@linkedinautomation.com</span>
+                      <span className="text-xs uppercase tracking-widest font-bold">developers@ocean.com</span>
                     </div>
                   </div>
                   <div className="flex items-center gap-6 group cursor-pointer">
